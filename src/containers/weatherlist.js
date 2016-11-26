@@ -1,7 +1,7 @@
 import React, {Component, PropTypes} from 'react';
 import {connect} from 'react-redux';
 import Chart from '../components/chart';
-import GoogleMap from '../components/google_map';
+import GoogleMap from '../components/googlemap';
 
 class WeatherList extends Component {
 

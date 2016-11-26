@@ -22,7 +22,6 @@ Chart.propTypes = {
   data: PropTypes.object,
   color: PropTypes.string,
   units: PropTypes.string
-
 };
 
 export default Chart;

@@ -1,3 +1,7 @@
+var Dashboard = require('webpack-dashboard');
+var DashboardPlugin = require('webpack-dashboard/plugin');
+var dashboard = new Dashboard();
+
 module.exports = {
   entry: [
     './src/index.js'
@@ -31,5 +35,8 @@ module.exports = {
   },
   eslint: {
     configFile: './.eslintrc'
-  }
+  },
+  plugins: [
+    new DashboardPlugin(dashboard.setData)
+  ]
 };

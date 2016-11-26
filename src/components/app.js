@@ -1,6 +1,6 @@
 import React from 'react';
-import SearchBar from '../containers/search_bar';
-import WeatherList from '../containers/weather_list';
+import SearchBar from '../containers/searchbar';
+import WeatherList from '../containers/weatherlist';
 
 const App = () => {
   return (
